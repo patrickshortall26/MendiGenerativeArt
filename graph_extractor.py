@@ -1,7 +1,6 @@
 from PIL import Image
 import os
 import numpy as np
-import matplotlib.pyplot as plt
 
 MENDI_CORAL = (242,166,127)
 
