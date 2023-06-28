@@ -1,2 +1,3 @@
-# MendiHacking
-Using PyBluez to attempt to retrieve the data from my Mendi neurofeedback device.
+# Mendi Data Extractor
+
+Python scripts to automate the extraction of mendi data using screenshots taken from the app. 
