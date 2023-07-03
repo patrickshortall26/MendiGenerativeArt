@@ -1,5 +1,5 @@
 # Ignore any image folders
-Cropped_graphs/
+Data/
 Screenshots/
 
 # Byte-compiled / optimized / DLL files
