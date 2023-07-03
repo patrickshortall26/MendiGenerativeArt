@@ -64,7 +64,7 @@ def graph_mask(graph_images):
 
 def save_data(graph_data):
     for i, data in enumerate(graph_data):
-        with open(f'Data/data{i}.json', 'w') as f:
+        with open(f'visualisation/Data/data{i}.json', 'w') as f:
             json.dump(list(data), f)
 
 
