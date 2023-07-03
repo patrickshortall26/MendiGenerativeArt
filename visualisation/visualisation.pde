@@ -53,8 +53,6 @@ void draw(){
 
   // Index
   int idx = frameCount % values.size();
-  print(idx);
-  print("\n");
   
   // Update the value of a
   a = values.getFloat(idx);
