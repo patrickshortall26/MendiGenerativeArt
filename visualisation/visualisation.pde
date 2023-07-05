@@ -14,6 +14,10 @@ float d = -2.50;
 float x_1 = 0;
 float x_2 = 0;
 
+// Min and max (for mapping)
+float data_max = 290;
+float data_min = 0;
+
 void setup(){
   size(1200,700);
 }
@@ -22,13 +26,9 @@ void setup(){
 void draw(){
   // Set background
   background(0);
-
+  
   // Load in data
   JSONArray values = loadJSONArray("Data/data0.json");
-
-  // Get min and max (for mapping)
-  float data_max = 290;
-  float data_min = 0;
 
   // Translate for easier plotting
   translate(width/2, height/2);
