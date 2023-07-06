@@ -8,9 +8,9 @@ The purpose of Mendi is to be used as a Neurofeedback device. Neurofeedback is a
 
 Sadly Mendi don't have a public API, so I decided instead to try and use the data they give you in the app to control it instead. This wouldn't allow me to control the animation in real-time, but could still allow for a cool proof of concept.
 
-So I created a python script which could automatically extract the data from the graph through the manipulation of a screenshotted image. I then wrote some code in Processing which would import this data, and used it to control the 'a' parameter.
+So I created a python script which could automatically extract the data from the graph through the manipulation of a screenshotted image. I then wrote some code in Processing which would import this data, and use it to control the 'a' parameter of the De Jong IFS. For each value of the 'a' parameter the function is iterated 25,000 times, begining at the point (0,0).
 
-The result is this! In the video below the parameter a of the De Jong IFS is controlled by the y-value of "Neural Acitivity".
+The result is this! In the video below the 'a' parameter of the De Jong IFS is controlled by the y-value of "Neural Acitivity" which is shown by the blue circle moving across the graph.
 
 https://github.com/patrickshortall26/MendiGenerativeArt/assets/60779668/c045bcb1-1e5a-410d-8c88-8cf7262b1437
 
